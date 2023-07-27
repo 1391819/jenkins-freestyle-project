@@ -1,4 +1,2 @@
-echo "Hello from run.sh!"
-cat - >> build_number <<EOF
-$BUILD_NUMBER
-EOF
+#!/bin/bash
+echo "This is build no. ${BUILD_NUMBER}. Hello from run.sh!" > output.txt
